@@ -1,0 +1,15 @@
+{
+    "layer": "top", 
+    "position": "top",  
+    "height": 30,  
+    "spacing": 0, 
+  
+    "include": [
+        "~/.config/waybar/modules.json"
+    ],
+
+   
+    "modules-left": ["custom/appmenu", "group/apps", "custom/wallpaper", "hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],  
+    "modules-right": ["pulseaudio", "bluetooth", "network", "custom/htop", "custom/exit", "clock"]
+}

@@ -1,0 +1,19 @@
+import = ["/home/guru/.cache/wal/colors-alacritty.toml"]
+
+# Enable live config reload
+live_config_reload = true 
+
+# Window settings
+[window]
+opacity = 0.7
+padding.x = 15
+padding.y = 15
+
+# Font settings
+[font]
+normal.family = "Source Code Pro"  # Ensure correct font name
+size = 10.0
+
+# Selection settings
+[selection]
+save_to_clipboard = true
